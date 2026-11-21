@@ -1,0 +1,28 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 扫描输出与报告（含本机真实路径，不要提交）
+storage-probe.json
+storage-scan.json
+focused-*.json
+storage-analysis.json
+*-installation.json
+wiztree-install/
+*.html
+!assets/report_template.html
+
+# 编辑器与系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 虚拟环境
+.venv/
+venv/
+env/

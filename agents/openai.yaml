@@ -1,0 +1,6 @@
+interface:
+  display_name: "storage-clean-WizTree"
+  short_description: "Windows WizTree 管理员存储扫描、Python 回退与三级清理报告"
+  default_prompt: "使用 $storage-clean-WizTree 分析电脑各个本地磁盘的空间占用，找出最大的文件夹和文件并生成报告。"
+policy:
+  allow_implicit_invocation: true
